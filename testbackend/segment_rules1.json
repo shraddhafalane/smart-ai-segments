@@ -1,0 +1,100 @@
+[
+    {
+        "message": "#interested #lead #enquiery #enq #enqry #prspct #prospect #high chance #potentioal",
+        "tags": [
+            "interested",
+            "lead",
+            "enquiery",
+            "enq",
+            "enqry",
+            "prspct",
+            "prospect"
+        ],
+        "elements": {
+            "name": "prospect state",
+            "description": "Target Prospects or Members in your database",
+            "help_text": "This condition filters contacts based on whether they are a prospect or a member",
+            "marketing_automation_external_account_id": "au:17",
+            "steps": [
+                {
+                    "type": "radio",
+                    "step": 1,
+                    "name": "Contact type",
+                    "external_id": "signed_up",
+                    "options": [
+                        {
+                            "display_name": "Prospect",
+                            "option_id": 1,
+                            "value": true
+                        },
+                        {
+                            "display_name": "Member",
+                            "option_id": 2,
+                            "value": false
+                        }
+                    ]
+                },
+                {
+                    "type": "multiselect",
+                    "step": 2,
+                    "name": "Contact State",
+                    "external_id": "prospect_state",
+                    "options": [
+                      { "id": "1", "name": "hot", "value": true },
+                      { "id": "2", "name": "cold", "value": false },
+                      { "id": "3", "name": "blowout", "value": false }
+                    ]
+                  }
+            ]
+        }
+    },
+    {
+        "message": " #lead #enquiery  #enqry #prspct #prospect",
+        "tags": [
+            "interested",
+            "lead",
+            "enquiery",
+            "enq",
+            "enqry",
+            "prspct",
+            "prospect"
+        ],
+        "elements": {
+            "name": "prospect state",
+            "description": "Target Prospects or Members in your database",
+            "help_text": "This condition filters contacts based on whether they are a prospect or a member",
+            "marketing_automation_external_account_id": "au:17",
+            "steps": [
+                {
+                    "type": "radio",
+                    "step": 1,
+                    "name": "Contact type",
+                    "external_id": "signed_up",
+                    "options": [
+                        {
+                            "display_name": "Prospect",
+                            "option_id": 1,
+                            "value": true
+                        },
+                        {
+                            "display_name": "Member",
+                            "option_id": 2,
+                            "value": false
+                        }
+                    ]
+                },
+                {
+                    "type": "multiselect",
+                    "step": 2,
+                    "name": "Contact State",
+                    "external_id": "prospect_state",
+                    "options": [
+                      { "id": "1", "name": "hot", "value": true },
+                      { "id": "2", "name": "cold", "value": true },
+                      { "id": "3", "name": "blowout", "value": true }
+                    ]
+                  }
+            ]
+        }
+    }
+]

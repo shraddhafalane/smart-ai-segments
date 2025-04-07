@@ -1,0 +1,100 @@
+[
+    {
+        "message": "#interested #lead",
+        "tags": [
+            "members",
+            "member",
+            "memb",
+            "mbmr",
+            "mbr",
+            "member data"
+        ],
+        "elements": {
+            "name": "prospect state",
+            "description": "Target Prospects or Members in your database",
+            "help_text": "This condition filters contacts based on whether they are a prospect or a member",
+            "marketing_automation_external_account_id": "au:17",
+            "steps": [
+                {
+                    "type": "radio",
+                    "step": 1,
+                    "name": "Contact type",
+                    "external_id": "signed_up",
+                    "options": [
+                        {
+                            "display_name": "Prospect",
+                            "option_id": 1,
+                            "value": false
+                        },
+                        {
+                            "display_name": "Member",
+                            "option_id": 2,
+                            "value": true
+                        }
+                    ],
+                    "default": {
+                        "option_id": 1
+                    }
+                },
+                {
+                    "type": "multiselect",
+                    "step": 2,
+                    "name": "Contact State",
+                    "external_id": "prospect_state",
+                    "default": {
+                        "option": "any"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "message": "#interested #lead",
+        "tags": [
+            "members",
+            "member",
+            "memb",
+            "mbmr",
+            "mbr",
+            "member data"
+        ],
+        "elements": {
+            "name": "prospect state",
+            "description": "Target Prospects or Members in your database",
+            "help_text": "This condition filters contacts based on whether they are a prospect or a member",
+            "marketing_automation_external_account_id": "au:17",
+            "steps": [
+                {
+                    "type": "radio",
+                    "step": 1,
+                    "name": "Contact type",
+                    "external_id": "signed_up",
+                    "options": [
+                        {
+                            "display_name": "Prospect",
+                            "option_id": 1,
+                            "value": false
+                        },
+                        {
+                            "display_name": "Member",
+                            "option_id": 2,
+                            "value": true
+                        }
+                    ],
+                    "default": {
+                        "option_id": 1
+                    }
+                },
+                {
+                    "type": "multiselect",
+                    "step": 2,
+                    "name": "Contact State",
+                    "external_id": "prospect_state",
+                    "default": {
+                        "option": "any"
+                    }
+                }
+            ]
+        }
+    }
+]

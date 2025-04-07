@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+ollama
+chromadb
+sentence_transformers
+transformers
+accelerate
+CORSMiddleware
